@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.bobocode.basics.CrazyGenericsTest" time="1.162" tests="79" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\SAHA\Java\Java2026\lab2\java-fundamentals-exercises\1-0-java-basics\1-3-1-crazy-generics\target\test-classes;D:\SAHA\Java\Java2026\lab2\java-fundamentals-exercises\1-0-java-basics\1-3-1-crazy-generics\target\classes;C:\Users\zeinz\.m2\repository\com\bobocode\java-fundamentals-util\1.0-SNAPSHOT\java-fundamentals-util-1.0-SNAPSHOT.jar;C:\Users\zeinz\.m2\repository\com\devskiller\jfairy\0.6.5\jfairy-0.6.5.jar;C:\Users\zeinz\.m2\repository\org\snakeyaml\snakeyaml-engine\2.3\snakeyaml-engine-2.3.jar;C:\Users\zeinz\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zeinz\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\zeinz\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\zeinz\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\zeinz\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\zeinz\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\zeinz\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\zeinz\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\zeinz\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\zeinz\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\zeinz\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\zeinz\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\zeinz\.m2\repository\com\google\inject\extensions\guice-assistedinject\5.1.0\guice-assistedinject-5.1.0.jar;C:\Users\zeinz\.m2\repository\org\iban4j\iban4j\3.2.3-RELEASE\iban4j-3.2.3-RELEASE.jar;C:\Users\zeinz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\zeinz\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\zeinz\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\zeinz\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\zeinz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\zeinz\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zeinz\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\zeinz\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\zeinz\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\zeinz\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\zeinz\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\zeinz\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\zeinz\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\zeinz\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\zeinz\.m2\repository\org\mockito\mockito-inline\5.2.0\mockito-inline-5.2.0.jar;C:\Users\zeinz\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\zeinz\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="user.country.format" value="UA"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\zeinz\AppData\Local\Temp\surefire13300270165827342647\surefirebooter-20261012000837774_3.jar C:\Users\zeinz\AppData\Local\Temp\surefire13300270165827342647 2026-10-12T00-08-37_684-jvmRun1 surefire-20261012000837774_1tmp surefire_0-20261012000837774_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\SAHA\Java\Java2026\lab2\java-fundamentals-exercises\1-0-java-basics\1-3-1-crazy-generics\target\test-classes;D:\SAHA\Java\Java2026\lab2\java-fundamentals-exercises\1-0-java-basics\1-3-1-crazy-generics\target\classes;C:\Users\zeinz\.m2\repository\com\bobocode\java-fundamentals-util\1.0-SNAPSHOT\java-fundamentals-util-1.0-SNAPSHOT.jar;C:\Users\zeinz\.m2\repository\com\devskiller\jfairy\0.6.5\jfairy-0.6.5.jar;C:\Users\zeinz\.m2\repository\org\snakeyaml\snakeyaml-engine\2.3\snakeyaml-engine-2.3.jar;C:\Users\zeinz\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\zeinz\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\zeinz\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\zeinz\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\zeinz\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\zeinz\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\zeinz\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\zeinz\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\zeinz\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\zeinz\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\zeinz\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\zeinz\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\zeinz\.m2\repository\com\google\inject\extensions\guice-assistedinject\5.1.0\guice-assistedinject-5.1.0.jar;C:\Users\zeinz\.m2\repository\org\iban4j\iban4j\3.2.3-RELEASE\iban4j-3.2.3-RELEASE.jar;C:\Users\zeinz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\zeinz\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\zeinz\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\zeinz\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\zeinz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\zeinz\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zeinz\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\zeinz\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\zeinz\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\zeinz\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\zeinz\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\zeinz\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\zeinz\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\zeinz\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\zeinz\.m2\repository\org\mockito\mockito-inline\5.2.0\mockito-inline-5.2.0.jar;C:\Users\zeinz\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\zeinz\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\zeinz"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.12.101-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\SAHA\Java\Java2026\lab2\java-fundamentals-exercises\1-0-java-basics\1-3-1-crazy-generics"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\zeinz\AppData\Local\Temp\surefire13300270165827342647\surefirebooter-20261012000837774_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.12.1+1-LTS"/>
+    <property name="user.name" value="zeinz"/>
+    <property name="stdout.encoding" value="Cp1251"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.12.1+1"/>
+    <property name="localRepository" value="C:\Users\zeinz\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\zeinz\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.12.1"/>
+    <property name="user.dir" value="D:\SAHA\Java\Java2026\lab2\java-fundamentals-exercises\1-0-java-basics\1-3-1-crazy-generics"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\zeinz\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\zeinz\AppData\Local\Programs\Python\Python313\;C:\Users\zeinz\AppData\Local\Programs\Python\Launcher\;C:\Users\zeinz\AppData\Local\Microsoft\WindowsApps;D:\вс код и все что связано\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\zeinz\AppData\Local\GitHubDesktop\bin;C:\Users\zeinz\AppData\Roaming\npm;C:\Users\zeinz\IntelliJ IDEA 2026.2.3\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.12.1+1-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="sourcedClassHasOneTypeParameter" classname="com.bobocode.basics.CrazyGenericsTest" time="0.052"/>
+  <testcase name="sourcedClassTypeParameterIsCalledT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.003"/>
+  <testcase name="sourcedClassTypeParameterIsNotBounded" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="valueFieldIsGeneric" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="limitedClassHasOneTypeParameter" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="limitedClassTypeParameterIsBoundedByNumber" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="limitedClassFieldsAreGeneric" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="converterInterfaceHasTwoTypeParameters" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="converterInterfaceFirstTypeParameterIsCalledT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="converterInterfaceSecondTypeParameterIsCalledR" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="converterMethodParameterHasTypeT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="converterMethodReturnTypeIsR" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="maxHolderClassHasOneTypeParameter" classname="com.bobocode.basics.CrazyGenericsTest" time="0.002"/>
+  <testcase name="maxHolderClassTypeParameterIsCalledT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="maxHolderClassTypeParameterShouldBeBoundByComparableT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="maxHolderFieldHasTypeT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="maxHolderConstructorParamHasTypeT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="maxHolderPutMethodParamHasTypeT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="maxHolderGetMaxReturnTypeIsT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="maxHolderPut" classname="com.bobocode.basics.CrazyGenericsTest" time="0.002"/>
+  <testcase name="maxHolderPutWhenArgumentIsLessThanMax" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="strictProcessorHasOneGenericType" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="strictProcessorTypeParameterIsCalledT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="strictProcessorTypeParameterIsBoundBySerializableAndComparable" classname="com.bobocode.basics.CrazyGenericsTest" time="0.007"/>
+  <testcase name="strictProcessorProcessMethodParameterHasTypeT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="collectionRepositoryHasTwoTypeParameters" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="collectionRepositoryFirstTypeParameterIsCalledT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="collectionRepositoryFirstTypeParameterIsBoundedByBaseEntity" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="collectionRepositorySecondTypeParameterIsCalledT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="collectionRepositorySecondTypeParameterIsBoundedByCollection" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="collectionRepositorySaveMethodParameterHasTypeT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="collectionRepositoryGetCollectionMethodHasReturnTypeC" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="listRepositoryExtendsCollectionRepository" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="listRepositoryHasOneTypeParameter" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="listRepositoryTypeParameterIsCalledT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="listRepositoryTypeParameterIsBoundByBaseEntity" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="listRepositoryParentInterfaceHasSpecifiedTwoTypes" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="comparableCollectionIsGeneric" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="comparableCollectionExtendsCollection" classname="com.bobocode.basics.CrazyGenericsTest" time="0.002"/>
+  <testcase name="comparableCollectionExtendsCollectionOfTheSameElementsType" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="comparableCollectionExtendsComparable" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="comparableCollectionExtendsComparableOfCollectionOfAnyType" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="comparableCollectionOverridesCompareToMethod" classname="com.bobocode.basics.CrazyGenericsTest" time="0.002"/>
+  <testcase name="compareToProvidesDefaultImpl" classname="com.bobocode.basics.CrazyGenericsTest" time="0.002"/>
+  <testcase name="compareToParamIsACollectionOfAnyType" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="compareToComparesSize(int)[1]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.872">
+    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\zeinz\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="compareToComparesSize(int)[2]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.003"/>
+  <testcase name="compareToComparesSize(int)[3]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="collectionUtilIsNotAGenericClass" classname="com.bobocode.basics.CrazyGenericsTest" time="0.002"/>
+  <testcase name="printParamIsAListOfAnyType" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="hasNewEntitiesMethodParamIsAGenericCollectionOfEntities" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="hasNewEntitiesChecksIds(Collection, boolean)[1]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.007"/>
+  <testcase name="hasNewEntitiesChecksIds(Collection, boolean)[2]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="hasNewEntitiesChecksIds(Collection, boolean)[3]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="isValidCollectionMethodFirstParamIsAGenericCollectionOfEntities" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="isValidCollectionMethodSecondParamIsAnyBaseEntitySuperClass" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="isValidCollectionReturnsTrueWhenAllEntitiesPassValidationPredicate(List, Predicate, boolean)[1]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.005"/>
+  <testcase name="isValidCollectionReturnsTrueWhenAllEntitiesPassValidationPredicate(List, Predicate, boolean)[2]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="isValidCollectionReturnsTrueWhenAllEntitiesPassValidationPredicate(List, Predicate, boolean)[3]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="isValidCollectionReturnsTrueWhenAllEntitiesPassValidationPredicate(List, Predicate, boolean)[4]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="hasDuplicatesIsAGenericMethod" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="hasDuplicatesTypeParameterIsCalledT" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="hasDuplicatesTypeParameterIsBoundedByBaseEntity" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="hasDuplicatesChecksEntitiesByUUID(List, BaseEntity, Boolean)[1]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.004"/>
+  <testcase name="hasDuplicatesChecksEntitiesByUUID(List, BaseEntity, Boolean)[2]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="hasDuplicatesChecksEntitiesByUUID(List, BaseEntity, Boolean)[3]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="findMaxHasPublicAccessType" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="findMaxMethodReturnMaxValue(List, Comparator, Object)[1]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.003"/>
+  <testcase name="findMaxMethodReturnMaxValue(List, Comparator, Object)[2]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="findMaxMethodReturnMaxValue(List, Comparator, Object)[3]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="findMostRecentlyCreatedEntityHasPublicAccessType" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="findMostRecentlyCreatedEntityIsAGenericMethod" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="findMostRecentlyCreatedEntityReturnsEntityWithMaxCreatedOnValue(List, BaseEntity)[1]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.004"/>
+  <testcase name="findMostRecentlyCreatedEntityReturnsEntityWithMaxCreatedOnValue(List, BaseEntity)[2]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="findMostRecentlyCreatedEntityReturnsEntityWithMaxCreatedOnValue(List, BaseEntity)[3]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="findMostRecentlyCreatedEntityReturnsEntityWithMaxCreatedOnValue(List, BaseEntity)[4]" classname="com.bobocode.basics.CrazyGenericsTest" time="0.0"/>
+  <testcase name="findMostRecentlyCreatedEntityThrowsException" classname="com.bobocode.basics.CrazyGenericsTest" time="0.007"/>
+  <testcase name="swapMethodDoesNotDeclareTypeParameter" classname="com.bobocode.basics.CrazyGenericsTest" time="0.001"/>
+  <testcase name="swapChangesElements" classname="com.bobocode.basics.CrazyGenericsTest" time="0.003"/>
+</testsuite>
